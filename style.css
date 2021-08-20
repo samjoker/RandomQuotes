@@ -1,0 +1,88 @@
+*,
+::before,
+::after {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.favicon {
+	color: blue;
+}
+.wrapper-container {
+	min-height: 100vh;
+	transition: 0.5s;
+	transition-timing-function: ease-in;
+	background: linear-gradient(-45deg, #b74096, #da4772);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	padding: 30px;
+	box-shadow: 0 14px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	align-items: center;
+	margin: 10px;
+	text-align: center;
+	width: 600px;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+	color: #b74096;
+	font-size: 25px;
+}
+#quote {
+	font-size: 30px;
+	font-weight: 700px;
+	font-family: 'Poppins', sans-serif;
+}
+#authoName {
+	margin: 25px 0px 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	color: #b74096;
+}
+hr {
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid black;
+	background: black;
+}
+.btn-primary {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 9px;
+}
+.btn {
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	cursor: pointer;
+	margin-top: 5px;
+	background: none;
+	border: 2px solid #b74096;
+	transition: all 0.5s ease-in-out;
+	font-weight: 600;
+}
+.btn:hover {
+	color: azure;
+	background: #b74096;
+	font-weight: 600;
+}
+.creator {
+	font-size: 16px;
+	font-style: italic;
+	color: white;
+	font-family: cursive;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	text-align-last: right;
+}
